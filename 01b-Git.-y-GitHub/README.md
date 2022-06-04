@@ -30,7 +30,7 @@
 
 ### Ciclos de vida o estados de los archivos en Git
 
-Cuando trabajamos con Git nuestros archivos pueden vivir y moverse entre 4 diferentes estados (cuando trabajamos remoto pueden ser más estados, pero lo estudiaremos más adelante)
+Cuando trabajamos con Git nuestros archivos pueden vivir y moverse  entre 4 diferentes estados (cuando trabajamos remoto pueden ser más estados, pero lo estudiaremos más adelante)
 
 - **Archivos** ***Tracked***: son los archivos que viven dentro de Git, no tienen cambios pendientes y sus últimas actualizaciones han sido guardadas en el repositorio gracias a los comandos git add y git commit.
 
@@ -77,7 +77,7 @@ Solo debemos posicionarnos en la carpeta raíz de nuestro proyecto y ejecutar el
 
 Recuerda que al ejecutar este comando (y de aquí en adelante) vamos a tener una nueva carpeta llamada **.git** con toda la base de datos con cambios atómicos en nuestro proyecto.
 
-Recuerda que Git está optimizado para trabajar en equipo, por lo tanto, debemos darle un poco de información sobre nosotros. No debemos hacerlo todas las veces que ejecutamos un comando, basta con ejecutar solo una vez los siguientes comandos con tu información:
+Recuerda que Git está optimizado para trabajar en equipo, por lo tanto, debemos darle un poco de información sobre nosotros. No debemos hacerlo todas las gitveces que ejecutamos un comando, basta con ejecutar solo una vez los siguientes comandos con tu información:
 
 ```shell
 git config --global user.name "tu nombre"
@@ -109,7 +109,7 @@ Existen muchas otras configuraciones de Git que puedes encontrar en el comando g
 
 Las ramas son la forma de hacer cambios en nuestro proyecto sin afectar el flujo de trabajo de la rama principal. Esto porque queremos trabajar una parte muy específica de la aplicación o simplemente experimentar.
 
-La cabecera o head representan la rama y el commit de esa rama donde estamos trabajando. Por defecto, esta cabecera aparecerá en el último commit de nuestra rama principal. Pero podemos cambiarlo al crear una rama (git branch rama, git checkout -b rama) o movernos en el tiempo a cualquier otro commit de cualquier otra rama con los comandos ( git reset id-commit, git checkout rama-o-id-commit).
+La cabecera o head representan lagit rama y el commit de esa rama donde estamos trabajando. Por defecto, esta cabecera aparecerá en el último commit de nuestra rama principal. Pero podemos cambiarlo al crear una rama gi(git branch rama, git checkout -b rama) o movernos en el tiempo a cualquier otro commit de cualquier otra rama con los comandos ( git reset id-commit, git checkout rama-o-id-commit).
 
 ```shell
 git branch "nombre de rama" // crea una rama
@@ -172,7 +172,7 @@ git push origin master
 
 ### Manejo de ramas en GitHub
 
-Puedes trabajar con ramas que nunca enviamos a GitHub, así como pueden haber ramas importantes en GitHub que nunca usas en el repositorio local. Lo importante es que aprendas a manejarlas para trabajar profesionalmente.
+Puedes trabajar con ramas que nunca enviamos a GitHub, así como pueden haber ramas importantes en GitHub que nunca usas en el repositorio local. Lo importante es que aprendas a manejarlagit s para trabajar profesionalmente.
 
 - **Crear una rama en el repositorio local**:
 
